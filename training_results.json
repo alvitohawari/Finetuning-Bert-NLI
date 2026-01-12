@@ -1,0 +1,72 @@
+{
+  "model_name": "bert-base-uncased",
+  "num_labels": 28,
+  "total_samples": 9000,
+  "train_samples": 7200,
+  "validation_samples": 900,
+  "test_samples": 900,
+  "test_metrics": {
+    "eval_loss": 1.1146548986434937,
+    "eval_accuracy": 0.6444444444444445,
+    "eval_precision": 0.6147985493596614,
+    "eval_recall": 0.6444444444444445,
+    "eval_f1": 0.6218042911671533,
+    "eval_runtime": 8.8588,
+    "eval_samples_per_second": 101.593,
+    "eval_steps_per_second": 12.756,
+    "epoch": 3.0
+  },
+  "sample_predictions": [
+    {
+      "text": "[NEWS] Apple launches new iPhone with advanced AI features",
+      "predictions": [
+        {
+          "label": "label_4",
+          "score": 0.9569772481918335
+        },
+        {
+          "label": "label_3",
+          "score": 0.01852394826710224
+        },
+        {
+          "label": "label_1",
+          "score": 0.005193392280489206
+        }
+      ]
+    },
+    {
+      "text": "[EMOTION] I'm so happy to see you after all these years!",
+      "predictions": [
+        {
+          "label": "label_18",
+          "score": 0.20346470177173615
+        },
+        {
+          "label": "label_17",
+          "score": 0.11556549370288849
+        },
+        {
+          "label": "label_15",
+          "score": 0.06934039294719696
+        }
+      ]
+    },
+    {
+      "text": "[NLI] Premise: The cat is on the mat. Hypothesis: There is a cat on the mat.",
+      "predictions": [
+        {
+          "label": "label_0",
+          "score": 0.8678199648857117
+        },
+        {
+          "label": "label_2",
+          "score": 0.06131604686379433
+        },
+        {
+          "label": "label_1",
+          "score": 0.040405698120594025
+        }
+      ]
+    }
+  ]
+}
