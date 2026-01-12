@@ -1,3 +1,44 @@
+# Fine-tuning BERT for Natural Language Inference (NLI)
+
+## 👥 Team Information
+**Course**: Deep Learning  
+**Institution**: Telkom University  
+
+| Name | NIM |
+|------|-----|
+| Alvito Kiflan Hawari | 1103220235 |
+| Nafal Rifky Atsilah Maulana | 1103223106 |
+
+---
+
+## 🎯 Purpose
+This repository contains the implementation of a **Natural Language Inference (NLI)** project using **BERT**.
+
+The objective of this project is to fine-tune a pre-trained **BERT** model to determine the logical relationship between two sentences: whether a hypothesis is **entailed**, **contradicted**, or **neutral** with respect to a given premise.
+
+---
+
+## 🔍 Project Overview
+
+### The Task: Natural Language Inference
+Natural Language Inference (NLI), also known as **Recognizing Textual Entailment (RTE)**, is a core task in Natural Language Processing (NLP).
+
+Given:
+- **Premise**: A statement assumed to be true
+- **Hypothesis**: A statement to be evaluated
+
+The model predicts one of the following relationships:
+- **Entailment** – the hypothesis is true given the premise
+- **Contradiction** – the hypothesis is false given the premise
+- **Neutral** – the relationship is unclear
+
+---
+
+## 📚 Dataset
+
+The model is trained on an **NLI dataset** (such as SNLI or MNLI format), consisting of sentence pairs annotated with inference labels.
+
+- **Input**:  
 - **Output Labels**:
 - Entailment
 - Contradiction
